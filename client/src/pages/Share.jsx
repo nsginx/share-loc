@@ -46,7 +46,7 @@ function Share(){
     }
 
     return(
-        <div className="w-full h-full flex flex-col gap-16 justify-center"> 
+        <div className="w-full h-full flex flex-col gap-16 justify-center mt-16"> 
 
         <button onClick={startShare} className={`mx-auto px-8 py-4 rounded-lg ${sharing ? "bg-green-100" : "bg-green-500"}`} disabled={sharing}>{sharing? "sharing...":"Share your Location"}</button>
 

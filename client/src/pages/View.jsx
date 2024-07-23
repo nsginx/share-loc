@@ -41,9 +41,9 @@ function View(){
     
     return(
         <>
-        <div className="h-full w-full">
+        <div className="h-full w-full text-center">
             <div className="flex flex-row justify-start my-2">
-                <p className="my-auto">Live Location: </p>
+                <p className="my-auto">Live Location of id : {pathId}</p>
             </div>
 
             {location ? 
