@@ -3,7 +3,7 @@ import {Server} from "socket.io"
 import { createServer } from 'http'
 import cors from 'cors'
 
-import { URL } from "./constants";
+import { URL } from "./constants.js";
 // import { v4 as uuidv4 } from 'uuid';
 
 const dataArray = new Map();
